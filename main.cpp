@@ -54,3 +54,15 @@ cin>>cs_marks;
 calculate();
 }
 
+void student::showdata() const
+{
+cout<<"\nRoll number of student : "<<rollno;
+cout<<"\nName of student : "<<name;
+cout<<"\nEnglish : "<<eng_marks;
+cout<<"\nMaths : "<<math_marks;
+cout<<"\nScience : "<<sci_marks;
+cout<<"\nLanguage2 : "<<lang2_marks;
+cout<<"\nComputer Science :"<<cs_marks;
+cout<<"\nAverage Marks :"<<average;
+cout<<"\nGrade of student is :"<<grade;
+}
