@@ -79,3 +79,4 @@ void display_all(); // display all records
 void delete_student(int);//delete particular record
 void change_student(int);//edit particular record
 
+//MAIN
