@@ -66,3 +66,8 @@ cout<<"\nComputer Science :"<<cs_marks;
 cout<<"\nAverage Marks :"<<average;
 cout<<"\nGrade of student is :"<<grade;
 }
+
+int  student::retrollno() const
+{
+return rollno;
+}
